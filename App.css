@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;700&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+.App{
+  min-height:100vh;
+  display:flex;
+  background-image: url("background.png");
+  background-size: cover;
+}
+
+.app-body{
+  height:100vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top{
+  height:90px;
+  width:50%;
+  border:2px solid black;
+  display:flex;
+  justify-content: center;
+  margin-top: 25px;
+  background-color: aliceblue;
+}
+
+.bottom{
+  width:50%;
+  border:2px solid black;
+  display:flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: aliceblue;
+}
+
+.btn{
+  height:40px;
+  width:98%;
+  background-color: navy;
+}
+
+.btn-primary2{
+  background-color: red;
+  color:white;
+}
+
+#box-chat{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  height: 91.5vh;
+  /* background-color: aliceblue; */
+   margin:40px 0 15px 0;
+      padding:10px;
+}
+
+
+#drawer-box{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width:100%;
+  padding:5px 10px;
+  border-width: 5px;
+}
